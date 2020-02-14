@@ -1,0 +1,148 @@
+﻿
+.contactUs {
+    color: white;
+    font-weight: bold;
+}
+
+.nav_sec a {
+    font-size: 14px !important;
+}
+
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline
+}
+
+footer p {
+    color: white;
+    text-align: center
+}
+
+footer p {
+    line-height: 15px;
+}
+
+
+.footer-break {
+    display: none
+}
+
+.custom-Nav {
+    float: right;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white !important;
+}
+
+.nav-personalizado {
+    position: absolute;
+    top: 0;
+    width: 101%;
+    display: block;
+    height: 100px;
+    background: #1f5796;
+    z-index: 1000;
+}
+
+.footerStyle {
+    padding: 15px 0;
+    background: #1f5796 !important;
+    font-size: 8px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: -9%;
+    margin-right: -9%;
+}
+
+
+
+/*FIND AGENT MODAL BOX*/
+.find-agent {
+    margin-top: -49px
+}
+
+.btn-text {
+    text-align: center
+}
+
+#myBtn {
+    padding: 15px;
+    width: 10%;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 100;
+    color: white
+}
+
+.modal { /* Hace conflicto con css de bootstrap*/
+    /*display: none;  Hidden by default 
+    position: fixed; /* Stay in place 
+    z-index: 1; /* Sit on top 
+    padding-top: 100px; /* Location of the box 
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width 
+    height: 100%; /* Full height 
+    overflow: auto; /* Enable scroll if needed 
+    background-color: rgb(0,0,0); /* Fallback color 
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content   Conflicto con bootstrap
+.modal-content {
+    background-color: #fefefe;
+    margin: 180px auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    text-align: center;
+}
+
+    .modal-content p {
+        color: black
+    }
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+
+@media screen and (max-width: 760px) {
+    footer div {
+        width: 100% !important;
+        float: none;
+    }
+
+    footer img {
+        width: 50% !important;
+    }
+    /*/////////////////////// FOOTER   ///////////////////////*/
+    .footer-break {
+        display: block
+    }
+
+    footer div {
+        width: 80%
+    }
+
+    .footer_p1-info span {
+        font-size: 11px
+    }
+}

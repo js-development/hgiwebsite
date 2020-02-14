@@ -1,0 +1,1 @@
+<script>var acc=document.getElementsByClassName("accordion");var i;for(i=0;i<acc.length; i++){acc[i].onclick = function () { this.classList.toggle("active"); var a = this.nextElementSibling; if (a.style.maxHeight) { a.style.maxHeight = null } else { a.style.maxHeight = a.scrollHeight + "px" } }};</script>
